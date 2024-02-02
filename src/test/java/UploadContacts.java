@@ -18,7 +18,7 @@ public class UploadContacts {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://qa-frontend.eBanqo.io");
+		driver.get("https://dev-admin-app.eks-baige.com/");
 		
 	}
 	
